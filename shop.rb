@@ -10,7 +10,9 @@ if Gem.win_platform?
     io.set_encoding(Encoding.default_external, Encoding.default_internal)
   end
 end
+product = []
 
-morphii = Book.new(price: 250, amount: 4)
+puts "прайс"
 
-puts "Книга Морфий, цена: #{morphii.price}"
+product.each {|prod| puts prod }
+
