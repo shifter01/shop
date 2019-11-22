@@ -11,7 +11,7 @@ end
     @price = params[:price] if params[:price]
     @amount = params[:amount]if params[:amount]
   end
-  def from_file
-
+  def self.from_file(file_path)
+    raise NotImplementedError
   end
 end
